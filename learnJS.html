@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aprender JS</title>
+
+	<script type="text/javascript">		
+		function calcula() {
+			var opcao = parseInt(prompt("Digite uma opção:"));
+			
+			switch(opcao) {
+				case 1: 
+					document.write("Serviço ótimo!");
+					break;
+
+				case 2: 
+					document.write("Serviço bom!");s
+					break;
+
+				case 3: 
+					document.write("Serviço regular!");
+					break;
+
+				default:
+					document.write("Opção inválida!");
+					break;
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>Escoha uma opção</h1>
+	<br /><br />
+	<h3>-- Menu --</h3>
+	<p>Opção 1: Ótimo</p>
+	<p>Opção 2: Bom</p>
+	<p>Opção 3: Regular</p>
+	<button onclick="calcula()" type="button">Escolher</button>
+</body>
+</html>
